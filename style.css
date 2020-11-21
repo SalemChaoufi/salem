@@ -1,0 +1,133 @@
+div{
+    margin: auto;
+   
+    width: 70%;
+    height: 590px;
+    
+}
+div header{
+    width: 100%;
+    height: 80px;
+}
+div nav{
+    width: 50%;
+    height: 30px;
+    margin-top: -16px;
+}
+div main{
+    width: 100%;
+    height: 460px;
+    
+}
+div footer{
+    width: 30%;
+    height: 20px;
+    float: right;
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.header-title{
+    line-height: 80px;
+    font-size: 45px;
+    float: left;
+    width: 80%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-logo{
+    width: 80px;
+    height: 100%;
+    float: right;
+    border-radius: 50%;
+    border-style: ridge ;
+    border-color: rgb(161, 161, 161);
+}
+.nav-list{
+    list-style-type: none;
+    line-height: 30px;
+    display: flex; 
+    justify-content: flex-start , space-evenly;
+}
+.nav-list li{
+    margin-right: 10px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:rgb(161, 161, 161);
+    background-color: white;
+    font-family:'Courier New', Courier, monospace ;
+}
+.nav-list li a:hover{
+    color:  black;
+    background-color: rgb(161, 161, 161);
+}
+.Text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 20px;
+    border-top: 1px double rgb(161, 161, 161);
+    
+}
+main article h4{
+    color: rgb(83, 83, 83);
+}
+main article h4 a{
+    color: rgb(17, 158, 240);
+}
+
+
+@media only screen and (max-width:1101px) {
+    .header-title{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:1101px) and (min-width:700px) {
+    .header-title{
+        font-size: 28px;
+    }    
+    .Text{
+        font-size: 12px;
+    }
+    div footer{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width:700px)  and (min-width:610px){
+    .header-title{
+        font-size: 24px;
+    }    
+    .Text{
+        font-size: 10px;
+    }
+    div footer{
+        font-size: 7px;
+    }
+    .header-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .nav-list li a{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:610px)  and (min-width:500px){
+    .header-title{
+        font-size: 19px;
+    }    
+    .Text{
+        font-size: 9px;
+    }
+    div footer{
+        font-size: 6px;
+    }
+    .header-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .nav-list li a{
+        font-size: 11px;
+    }
+}
