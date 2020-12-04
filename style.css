@@ -1,6 +1,5 @@
 div{
     margin: auto;
-   
     width: 70%;
     height: 590px;
     
@@ -37,6 +36,7 @@ div footer{
     width: 80%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: teal;
 }
 .header-logo{
     width: 80px;
@@ -130,4 +130,104 @@ main article h4 a{
     .nav-list li a{
         font-size: 11px;
     }
+}
+@media only screen and (max-width:500px) and (min-width:320px) {
+    .header-title{
+        font-size: 13px;
+    }    
+    .Text{
+        font-size: 9px;
+    }
+    div footer{
+        font-size: 6px;
+    }
+    .header-logo{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .nav-list li a{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width:320px) and (min-width:280px){
+    .header-title{
+        font-size: 11px;
+    }    
+    .Text{
+        font-size: 9px;
+    }
+    div footer{
+        font-size: 6px;
+    }
+    .header-logo{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .nav-list li a{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width:280px) and (min-width:279px){
+    .header-title{
+        font-size: 11px;
+    }    
+    .Text{
+        font-size: 9px;
+    }
+    div footer{
+        font-size: 6px;
+    }
+    .header-logo{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .nav-list li a{
+        font-size: 9px;
+        margin-left: -10px;
+    }
+    .nav-list li{
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width:280px) {
+    div header{
+        clear: both;
+        height: 100px;
+    }
+    .header-title{
+        font-size: 8px;
+        clear: both;
+        padding-top: -40px;
+        text-align: center;
+        margin-left: 20px;
+    }    
+    .Text{
+        font-size: 7px;
+    }
+    div footer{
+        font-size: 5px;
+    }
+    .header-logo{
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        clear: both;
+        margin-top: 0;
+        margin-right: 60px;
+        margin-top: -30px;
+    }
+    .nav-list li a{
+        font-size: 8px;
+        margin-left: -10px;
+    }
+    .nav-list li{
+        margin-right: 15px;
+    }
+    .Text{
+        font-size: 6px;
+    }
+
 }
